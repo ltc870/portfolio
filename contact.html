@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawrence | Front End Web Developer</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
   </head>
   <body>
     
     <header>
     
-      <a href="index.html">
+      <a id="logo" href="/index.html">
         <h1>Lawrence</h1>
         <h2>Front End Web Developer</h2>
       </a>
     
       <nav>
         <ul>
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/index.html">Portfolio</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="#" class="selected">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -32,18 +39,18 @@
 
       <section id="secondary">
         <h3>Contact Information</h3>
-        <ul>
-          <li><a href="tel:8703297002">(870) 329-7002</a></li>
-          <li><a href="mailto:lawrencecaudle870.com">lawrencecaudle870@gmail.com</a></li>
-          <li><a href="https://twitter.com" target="_blank">@HeyMrCaudle</a></li>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:8703297002">(870) 329-7002</a></li>
+          <li class="email"><a href="mailto:lawrencecaudle870.com">lawrencecaudle870@gmail.com</a></li>
+          <li class="twitter"><a href="https://twitter.com" target="_blank">@HeyMrCaudle</a></li>
         </ul>
       </section>
 
     </div>
 
     <footer>
-      <a href="https://twitter.com" target="_blank"><img src="/portfolio/img/twitter-wrap.png" alt="twitter"></a>
-      <a href="https://facebook.com" target="_blank"><img src="/portfolio/img/facebook-wrap.png" alt="twitter"></a>
+      <a href="https://twitter.com" target="_blank"><img class="social-icon" src="/img/twitter-wrap.png" alt="twitter"></a>
+      <a href="https://facebook.com" target="_blank"><img class="social-icon" src="/img/facebook-wrap.png" alt="twitter"></a>
       <p>&copy; 2021 Lawrence</p>
     </footer>
     

@@ -5,57 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawrence | Front End Web Developer</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
   </head>
   <body>
     
     <header>
     
-      <a href="#">
+      <a id="logo" href="#">
         <h1>Lawrence</h1>
         <h2>Front End Web Developer</h2>
       </a>
     
       <nav>
         <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="selected">Portfolio</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <div id="wrapper">
-      <ul>
+      <ul id="gallery">
         <li>
-          <img src="/portfolio/img/numbers-01.jpg" alt="Number 1">
+          <img src="/img/numbers-01.jpg" alt="Number 1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </li>
 
         <li>
-          <img src="/portfolio/img/numbers-02.jpg" alt="Number 2">
+          <img src="/img/numbers-02.jpg" alt="Number 2">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </li>
 
         <li>
-          <img src="/portfolio/img/numbers-06.jpg" alt="Number 6">
+          <img src="/img/numbers-06.jpg" alt="Number 6">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </li>
 
         <li>
-          <img src="/portfolio/img/numbers-09.jpg" alt="Number 9">
+          <img src="/img/numbers-09.jpg" alt="Number 9">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </li>
 
         <li>
-          <img src="/portfolio/img/numbers-12.jpg" alt="Number 12">
+          <img src="/img/numbers-12.jpg" alt="Number 12">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </li>
       </ul>
     </div>
    
     <footer>
-      <a href="https://twitter.com" target="_blank"><img src="/portfolio/img/twitter-wrap.png" alt="twitter"></a>
-      <a href="https://facebook.com" target="_blank"><img src="/portfolio/img/facebook-wrap.png" alt="twitter"></a>
+      <a href="https://twitter.com" target="_blank"><img class="social-icon" src="/img/twitter-wrap.png" alt="twitter"></a>
+      <a href="https://facebook.com" target="_blank"><img class="social-icon" src="/img/facebook-wrap.png" alt="twitter"></a>
       <p>&copy; 2021 Lawrence</p>
     </footer>
     
